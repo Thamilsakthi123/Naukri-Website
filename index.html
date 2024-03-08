@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Recruitment-job search-Employment-job vaccanies... naukri.com</title>
+  <link rel="icon" href="naukri icon.webp">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="img1">
+      <img src="naukri_Logo.png" class="icon">
+    </div>
+    <div class="nav">
+      <div class="btn-group">
+        <button class="btn border border-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown"
+          data-bs-auto-close="true" aria-expanded="false">
+          Jobs
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+          <li>
+            <h5 class="dropdown-header">Popular categories</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">IT jobs</a></li>
+          <li><a class="dropdown-item" href="#">Sales jobs</a></li>
+          <li><a class="dropdown-item" href="#">Marketing jobs</a></li>
+          <li><a class="dropdown-item" href="#">Data Science jobs</a></li>
+          <li><a class="dropdown-item" href="#">HR jobs</a></li>
+          <li><a class="dropdown-item" href="#">Engineering jobs</a></li>
+          <li>
+            <h5 class="dropdown-header">Jobs in demand</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Fresher jobs</a></li>
+          <li><a class="dropdown-item" href="#">MNC jobs</a></li>
+          <li><a class="dropdown-item" href="#">Remote jobs</a></li>
+          <li><a class="dropdown-item" href="#">Work from home jobs</a></li>
+          <li><a class="dropdown-item" href="#">Walk-in-jobs</a></li>
+          <li><a class="dropdown-item" href="#">part-time jobs</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn border border-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown"
+          data-bs-auto-close="true" aria-expanded="false">
+          Companies
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+          <li>
+            <h5 class="dropdown-header">Explore categories</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Unicorn</a></li>
+          <li><a class="dropdown-item" href="#">MNC</a></li>
+          <li><a class="dropdown-item" href="#">Startup</a></li>
+          <li><a class="dropdown-item" href="#">Product based</a></li>
+          <li><a class="dropdown-item" href="#">Internet</a></li>
+          <li>
+            <h5 class="dropdown-header">Explore collections</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Top companies</a></li>
+          <li><a class="dropdown-item" href="#">IT companies </a></li>
+          <li><a class="dropdown-item" href="#">Fintech companies</a></li>
+          <li><a class="dropdown-item" href="#">Sponsored companies</a></li>
+          <li><a class="dropdown-item" href="#">Featured companies</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn border border-white" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown"
+          data-bs-auto-close="true" aria-expanded="false">
+          Services
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+          <li>
+            <h5 class="dropdown-header">Explore collections</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Resume writing</a></li>
+          <li><a class="dropdown-item" href="#">Text resume</a></li>
+          <li><a class="dropdown-item" href="#">Visual resume</a></li>
+          <li><a class="dropdown-item" href="#">Resume critique</a></li>
+          <li>
+            <h5 class="dropdown-header">Find jobs</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Jobs4</a></li>
+          <li><a class="dropdown-item" href="#">Priority applicant</a></li>
+          <li><a class="dropdown-item" href="#">Contact us</a></li>
+          <li>
+            <h5 class="dropdown-header">Get recruiter's attention</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Resume display</a></li>
+          <li><a class="dropdown-item" href="#">Job search booster</a></li>
+          <li>
+            <h5 class="dropdown-header">Monthly subscriptions</h5>
+          </li>
+          <li><a class="dropdown-item" href="#">Basic & premium plans</a></li>
+        </ul>
+      </div>
+    </div>
+<!-- offcanvas  -->
+<!-- login page -->
+    <div class="button">
+<div class="offcanvas offcanvas-start" id="demo" class="border rounded-pill">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title">Login Page</h3>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+      <form>
+          <div class="LoginForm">
+          <div class="#">
+              <label>Email ID/Username</label><br>
+              <input type="text" class="form-control"placeholder="Enter your active Email ID/Username" required><br>
+              <label>Password</label><br>
+              <input type="password"class="form-control"placeholder="Enter your password " required>
+              <div class="Forgetpassword">
+          <a href="#" class="text-primary">Forget password?</a>
+      </div><br>
+      <button class="text-light bg-primary loginbutton">Login</button>
+      <div class="OTP">
+      <a href="#">Use OTP to Login</a><br><br>
+      <h6>or</h6>
+  </div>
+          </div>
+          <div class="signin">
+              <button class="sign border border-primary text-primary">Sign in with Google </button>
+          </div>
+      </div>
+      </form>
+
+  </div>
+</div>
+
+<div class="container-fluid mt-1">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+      Login
+  </button>
+</div>
+      <!-- Register -->
+      <a href="Register.html" target="_blank"><button class="text-light  Register">Register</button></a>
+      <div class="btn-group">
+        <button type="button" class="btn dropdown-toggle border-white " data-bs-toggle="dropdown" aria-expanded="false">
+          For employers
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+          <li><button class="dropdown-item" type="button">Buy online</button></li>
+          <li><button class="dropdown-item" type="button">Naukri Hiring suite</button></li>
+          <li><button class="dropdown-item" type="button">Employee Login</button></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content  -->
+  <div class="Header">
+    <div class="job">
+      <h1>Find your dream job now</h1>
+    </div>
+    <div class="subtitle">
+      <h5>5lakh+jobs for you to explore</h5>
+    </div>
+  </div>
+  <!-- Search Bar -->
+  <form method="get" action="">
+    <div class="searchbar">
+      <div class="searchbox">
+        <div class="icons">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="input">
+          <input type="text" class="inputtype" placeholder="Enter skills/destination/companies" required>
+        </div>
+        <div class="dropdown select ">
+          <button class="btn  dropdown-toggle border border-white text-muted" type="button" id="dropdownMenuButton2"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Select experience
+          </button>
+          <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton2">
+            <li>
+              <h5 class="dropdown-header">Fresher <span>(Less than one year)</span></h5>
+            </li>
+            <li><a class="dropdown-item" href="#">1 year</a></li>
+            <li><a class="dropdown-item" href="#">2 year</a></li>
+            <li><a class="dropdown-item" href="#">3 year</a></li>
+            <li><a class="dropdown-item" href="#">4 year</a></li>
+            <li><a class="dropdown-item" href="#">5 year</a></li>
+          </ul>
+        </div>
+        <div class="input">
+          <input type="text" class="inputtype" placeholder="Enter Location" required>
+        </div>
+        <div class="input">
+          <input type="submit" value="search" class="submit text-light bg-primary">
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+  <!-- job Roles -->
+  <div class="categories">
+    <div class="box1 box">
+      <a href="#">
+        <img src="home.svg" class="Jobicons"></a>
+      <span class="span">Remote</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box2 box">
+      <a href="#">
+        <img src="mnconetheme.svg" class="Jobicons"></a>
+      <span class="span">MNC</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box3 box">
+      <a href="#">
+        <img src="software.svg" class="Jobicons"></a>
+      <span>Internship</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box4 box">
+      <a href="#"><img src="supply.svg" class="Jobicons"></a>
+      <span>supply chain</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box5 box">
+      <a href="#"><img src="analyticsonetheme.svg" class="Jobicons"></a>
+      <span>Analytics</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box6 box">
+      <a href="#"><img src="freshersonetheme (1).svg" class="Jobicons"></a>
+      <span>Freshers</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+  </div>
+  <!-- job Roles2  -->
+  <div class="categories1">
+    <div class="box7">
+      <img src="engineers.svg" class="Jobicons">
+      <span class="Roles">Engineering</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box7">
+      <img src="sales.svg" class="Jobicons">
+      <span class="Roles">Sales</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box7">
+      <img src="data-scienceonetheme.svg" class="Jobicons">
+      <span class="Roles">Data Science</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+    <div class="box7">
+      <img src="internshiponetheme.svg" class="Jobicons">
+      <span class="Roles">Internship</span>
+      <img src="arrow.svg" class="arrow">
+
+    </div>
+    <div class="box7">
+      <img src="startuponetheme.svg" class="Jobicons">
+      <span class="Roles">Startup</span>
+      <img src="arrow.svg" class="arrow">
+    </div>
+  </div>
+  <!--Top companies-->
+  <!--card 1-->
+  <!-- <div class="carousel slide">  -->
+  <div class="carouselslide1">
+    <h3 class="text-center mt-5 mb-5">Top companies hiring now</h3>
+    <div id="carouselExampleControls" class="carousel carousel-dark silde" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-wrappers">
+            <div class="card">
+              <div class="MNC">
+                <h6 class="mt-2 ms-2">MNCs</h6>
+                <img src="arrow.svg" class="arrowimg mt-2">
+              </div>
+              <span class="hiringk ms-2">1.4k +are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="H.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="fish.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="wtw.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="hilton.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card2  -->
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">Product</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk ms-2">670+are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="grewhit.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="box.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="check.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="petro.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card3  -->
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">Banking & Finance</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk mt-2 ms-2">165+are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="infinits.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="mncimg.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="pillar.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="s.f.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 4  -->
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">Hospitality</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk mt-2 ms-2">32+are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="sss.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="star.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="Taco.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="wtw.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- carousel slide 2 
+       <!-- card 5  -->
+        <div class="carousel-item">
+          <div class="card-wrappers">
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">Fintech</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk mt-2 ms-2">96+are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="BCD.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="newstar.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="infinits.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="indiaballs.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">FMCG&Retail</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk mt-2 ms-2">57+are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="p&g.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="massss.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="firstry.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="cholayil.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 7  -->
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">Internet</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk mt-2 ms-2">131 are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="sharechat.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="circle.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="round.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="food.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 8  -->
+            <div class="card">
+              <div class="MNC">
+                <h5 class="mt-2 ms-2">Startsup</h5>
+                <img src="arrow.svg" class="arrowimg">
+              </div>
+              <span class="hiringk mt-2 ms-2">255+are actively hiring</span>
+              <div class="card-body">
+                <div class="mnclogos">
+                  <div class="mnclogo">
+                    <img src="p&g.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="massss.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="firstry.gif" class="card-img">
+                  </div>
+                  <div class="mnclogo">
+                    <img src="cholayil.gif" class="card-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Featured companies -->
+    <h3 class="Featuredcompanies ">Featured companies actively hiring</h3>
+    <div class="Featuredbutton">
+      <button class="All">All</button>
+      <button class="ItServices">IT Services</button>
+      <button class="BFSI">BFSI</button>
+    </div>
+    <div class="carouselbox">
+      <div id="carouselExampleControls" class="carousel  carousel-dark silde" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-wrapper">
+              <div class="card">
+                <img src="vxi.gif">
+                <div class="card-body">
+                  <div class="vxi">
+                    <h5 class="card-title">VXI Global solutions <br>LLC</h5>
+                    <span><img src="moonstar.png" class="moonstar">3.9 25 reviews</span>
+                  </div>
+                  <p class="card-text text-center mt-2">No.1 Customer Care Solutions Provider</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary  border-pill">view jobs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="cognizant.gif" class="text-center">
+                <div class="card-body">
+                  <div class="cognizant">
+                    <h5 class="card-title">cognizant</h5>
+                    <span><img src="moonstar.png" class="moonstar">3.9 41.9k reviews</span>
+                  </div>
+                  <p class="card-text text-center ">Leading ITes company with global presence</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary">view jobs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="text-center pt-2">
+                  <img src="xorint.gif" width="52%" height="112%" class="mt-1">
+                </div>
+                <div class="card-body">
+                  <div class="xorint">
+                    <h5 class="card-title">xorint</h5>
+                    <span><img src="moonstar.png" class="moonstar ">3.9 41.9k reviews</span>
+                  </div>
+                  <p class="card-text text-center ">software development&technology services firm</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary">view jobs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="text-center pt-2">
+                  <img src="capgemini.gif" width="92%" height="92%">
+                </div>
+                <div class="card-body">
+                  <div class="capgemini">
+                    <h5 class="card-title">Capgemini</h5>
+                    <span><img src="moonstar.png" class="moonstar">3.9 41.9k reviews</span>
+                  </div>
+                  <p class="card-text text-center">Global leader in technology services</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary">view jobs</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel slide 2  -->
+          <div class="carousel-item">
+            <div class="card-wrapper">
+              <div class="card ">
+                <img src="airtel.gif">
+                <div class="card-body">
+                  <div class="Airtel">
+                    <h5 class="card-title text-center">Airtel </h5>
+                    <span><img src="moonstar.png" class="moonstar">3.9 25+ reviews</span>
+                  </div>
+                  <p class="card-text text-center">Leading Global telecom <br>company.</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary  border-pill">view jobs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="Amazon.gif" width="35%" height="25%" class="ps-5">
+                <div class="card-body">
+                  <div class="Amazon">
+                    <h5 class="card-title">Amazon</h5>
+                    <span><img src="moonstar.png" class="moonstar">4.1 20.6k+ reviews</span>
+                  </div>
+                  <p class="card-text">World' largets internet company.</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary">view jobs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="Hitachi.gif" width="22%" height="22%" class="ps-5">
+                <div class="card-body">
+                  <div class="Hitachi">
+                    <h5 class="card-title">Hitachi Energy</h5>
+                    <span><img src="moonstar.png" class="moonstar">4.2 499k+ reviews</span>
+                  </div>
+                  <p class="card-text">Advancing a sustainable energy future for all.</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary">view jobs</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="text-center pt-2">
+                  <img src="coforge.gif" width="62%" height="112%" class="p-2 mt-2">
+                </div>
+                <div class="card-body">
+                  <div class="coforge">
+                    <h5 class="card-title">Coforge</h5>
+                    <span><img src="star.svg" class="moonstar">3.9 41.9k reviews</span>
+                  </div>
+                  <p class="card-text">Global digital services and solution provider</p>
+                  <div class="viewjobs">
+                    <a href="#" class="btn btn-light text-primary">view jobs</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- button -->
+    <div class="viewbutton">
+      <button class="btn btn-outline-primary rounded-pill p-2">View all companies</button>
+    </div>
+    <!-- naukri campus -->
+    <div class="campus">
+      <div class="naukri">
+        <img src="campus.svg">
+        <div class="students">
+          <h5 class="mt-2">Introducing a career platform for college students & fresh grads</h5>
+          <span class="text-secondary mb-3">Explore contests, webinars, take aptitude test, prepare for your dream
+            career & find jobs & internships</span><br>
+          <button class="btn rounded-pill  btn-outline-secondary mt-4"><a href="#"></a>Expert speak</button>
+          <button class="btn rounded-pill  btn-outline-secondary mt-4"><a href="#"></a>contests</button>
+          <button class="btn rounded-pill  btn-outline-secondary  mt-4"><a href="#"></a>NCAT</button>
+          <button class="btn rounded-pill  btn-outline-secondary  mt-4"><a href="#"></a>pathfinder</button>
+          <button class="btn rounded-pill  btn-outline-secondary  mt-4"><a href="#"></a>Jobs & internship</button>
+        </div>
+        <div class="launched">
+          <button class="btn  rounded-pill btn-outline-secondary bg-light ">Just launched</button><br><br>
+          <button class="btn btn-primary rounded-pill ps-5 pe-5">Explore now</button>
+        </div>
+      </div>
+    </div>
+    <!-- image and  about video -->
+    <div class="naukricampuspic">
+      <div class="lectures ">
+        <div class="imagesnaukri">
+          <img src="naggaro.gif" class="naggaro"><br>
+          <span class="mt-2 text-danger">Naggaro</span>
+          <h2 class="gradient mt-3 ms-5 text-center shadow">We are shaping the <br>company of tomorrow </h2>
+        </div>
+        <div class="video">
+          <video width="300px" height="300px" controls>
+            <source src="naggaro.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+       <!-- sidebox -->
+      <div class="indicators1">
+        <div class="Discover">
+          <img src="discover.png" class="bablu">
+          <h3 class="ms-5 mt-2">Discover jobs across<br> popular roles</h3>
+          <p class="ms-5">Select a role and we'll show you relevant jobs for it!</p>
+        </div>
+        <div class="sidebox">
+          <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- First -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="First">
+                  <div class="Full ms-3  mt-3  p-2 border  rounded">
+                    <h6>Full stack Developer</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span>13.1k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                  <div class="mobile  ms-1  mt-3  p-1 border rounded">
+                    <h6>Mobile/App Developer</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class=" mt-5 ms-2">2.2k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                 </div>
+                </div>
+<!-- second -->
+                 <div class="second">
+                  <div class="Full  ms-3  mt-3  p-2  border  rounded">
+                    <h6>Front end Developer</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5 ">3.2k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                  <div class="mobile   ms-3  mt-3  p-2  border  rounded">
+                    <h6 class="p-2 ">Devops Engineer</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5  ms-3">1.9k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                 </div>
+                 <!-- Third -->
+                 <div class="Third">
+                  <div class="Full ms-3  mt-3  p-3 border  rounded">
+                    <h6 class="pe-5 ps-2">Engineer Manager</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5 ">1.1k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                  <div class="mobile  ms-3  mt-3  p-2 border  rounded">
+                    <h6>Technical Lead</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5 ">7.8k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                 </div>
+                 <!--  -->
+              </div>`
+            </div>
+              <div class="carousel-item ">
+                <div class="First">
+                  <div class="Full ms-3  mt-3  p-2 border  rounded">
+                    <h6>Automation  Test Engineer</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span>1.7k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                  <div class="mobile  ms-1  mt-3  p-1 border rounded">
+                    <h6>Cyber Security</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class=" mt-5 ms-2">432jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                 </div>
+
+                 <div class="second">
+                  <div class="Full  ms-3  mt-3  p-2  border  rounded">
+                    <h6>Technical Architect</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5 ">4.4k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                  <div class="mobile   ms-3  mt-3  p-2  border  rounded">
+                    <h6 class="p-2 ">Business Analyst</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5  ms-3">3.5k+jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                 </div>
+                 <div class="Third">
+                  <div class="Full ms-3  mt-3  p-3 border  rounded">
+                    <h6 class="pe-5 ps-2">Data Scientist</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5 ">850 jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                  <div class="mobile  ms-3  mt-3  p-2 border  rounded">
+                    <h6>Program Manager-Technology/It</h6>
+                    <div class="arrowspan">
+                      <div class="1">
+                   <span class="mt-5 ">434 jobs</span>
+                  </div>
+                  <div class="2">
+                    <img src="arrow.svg" width="22px" height="22px">
+                  </div>
+                  </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+        </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    </div>
+  </div>
+          </div
+      </div>
+     
+        <h3 class="text-center mb-5">Sponsored Companies</h3>
+        <div class="sponspored">
+          <button class="sbutton btn btn-outline-secondary rounded-pill ms-2 bg-secondary text-light">All</button>
+          <button class=" sbutton btn btn-outline-secondary rounded-pill">IT Services</button>
+          <button class=" sbutton btn btn-outline-secondary rounded-pill">Technology</button>
+          <button class="sbutton btn btn-outline-secondary rounded-pill">Manufacturing&Production</button>
+          <button class="sbutton btn btn-outline-secondary rounded-pill">Healthcare&Life Sciences</button>
+          <button class="sbutton btn btn-outline-secondary rounded-pill">Infrastructure,Transport & Real Estate</button>
+          <button class="sbutton btn btn-outline-secondary rounded-pill">BEFI</button>
+          <button class="sbutton btn btn-outline-secondary rounded-pill">BPM</button>
+          <span>+2 More</span>
+        </div>
+
+<!-- carousel and card in bootstrap -->
+<div class="sixteenbox">
+  <div id="carouselExampleControls" class="carousel carousel-dark slide " data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+<div class="wrapper-card">
+  <!-- First box -->
+  <div class="card">
+    <div class="sponslogo">
+    <img src="unify.gif" class="unify">
+  </div>
+    <div class="card-body">
+      <h5 class="card-title text-center">Unify Technologies</h5>
+      <div class="cardtext ms-5">
+        <div class="body">
+        <img src="moonstar.png" class="moonstar mt-1" >
+      </div>
+      <div class="body1">
+        <span>3.3 127reviews</span>
+      </div>
+      </div>
+<div class="btngroup">
+  <button class="sponbtn">B2B</button>
+  <button class="sponbtn">product</button>
+  <button class="sponbtn">corporate</button>
+  <button class="sponbtn ms-4 mt-2">Finacial services</button>
+</div>
+    </div>
+  </div>
+<!-- second box -->
+<div class="card ">
+  <div class="sponslogo">
+  <img src="TTK.gif" class="unify">
+</div>
+  <div class="card-body">
+    <h5 class="card-title text-center">TTK Prestige</h5>
+    <div class="cardtext ms-5">
+      <div class="body">
+      <img src="moonstar.png" class="moonstar mt-1" >
+    </div>
+    <div class="body1">
+      <span>4.0 478reviews</span>
+    </div>
+    </div>
+<div class="btngroup">
+<button class="sponbtn ms-2">B2C</button>
+<button class="sponbtn">public</button>
+<button class="sponbtn">corporate</button>
+<button class="sponbtn ms-4 mt-2">Southern India 500</button>
+</div>
+  </div>
+</div>
+
+<!-- Third box -->
+<div class="card ">
+  <div class="sponslogo">
+  <img src="foundever.gif" class="unify">
+</div>
+  <div class="card-body">
+    <h5 class="card-title text-center">Foundever</h5>
+    <div class="cardtext ms-5">
+      <div class="body">
+      <img src="moonstar.png" class="moonstar mt-1" >
+    </div>
+    <div class="body1">
+      <span>3.8 1.6k+reviews</span>
+    </div>
+    </div>
+<div class="btngroup">
+<button class="sponbtn">BPO/KPO</button>
+<button class="sponbtn">B2O</button>
+<button class="sponbtn">Foreign </button>
+<button class="sponbtn  mt-2">Conglomerate</button>
+<button class="sponbtn"> call centre</button>
+</div>
+  </div>
+</div>
+<!-- Fourth box -->
+<div class="card">
+  <div class="sponslogo">
+  <img src="sify.gif" class="unify">
+</div>
+  <div class="card-body">
+    <h5 class="card-title text-center">Sify</h5>
+    <div class="cardtext ms-5">
+      <div class="body">
+      <img src="moonstar.png" class="moonstar mt-1" >
+    </div>
+    <div class="body1">
+      <span>4.0 1.5K+reviews</span>
+    </div>
+    </div>
+<div class="btngroup">
+<button class="sponbtn">IT services & consulting</button>
+<button class="sponbtn">Indian MNC</button>
+<button class="sponbtn">Internet</button>
+<button class="sponbtn ms-4 mt-2">Finacial services</button>
+</div>
+  </div>
+</div>
+</div>
+<!-- Fifth box -->
+<div class="secondrow">
+<div class="card mt-3">
+  <div class="sponslogo">
+  <img src="allianz.gif" class="unify">
+</div>
+  <div class="card-body">
+    <h5 class="card-title text-center">Allianz Technology</h5>
+    <div class="cardtext ms-5">
+      <div class="body">
+      <img src="moonstar.png" class="moonstar mt-1" >
+    </div>
+    <div class="body1">
+      <span>4.4 676reviews</span>
+    </div>
+    </div>
+<div class="btngroup">
+<button class="sponbtn">IT services & consulting</button>
+<button class="sponbtn mt-2 ms-3">Foreign MNC</button>
+<button class="sponbtn">B2B</button>
+<button class="sponbtn ms-4 mt-2">Finacial services</button>
+</div>
+  </div>
+</div>
+<!-- Sixth box -->
+<div class="card mt-3">
+  <div class="sponslogo">
+  <img src="CSC.gif" class="unify">
+</div>
+  <div class="card-body">
+    <h5 class="card-title text-center">CSC</h5>
+    <div class="cardtext ms-5">
+      <div class="body">
+      <img src="moonstar.png" class="moonstar mt-1" >
+    </div>
+    <div class="body1">
+      <span>3.7 205reviews</span>
+    </div>
+    </div>
+<div class="btngroup">
+<button class="sponbtn ms-5">Finacial Services</button>
+<button class="sponbtn  ms-2">IT services & Consulting</button>
+</div>
+  </div>
+</div>
+<!-- Seventh box -->
+  <div class="card mt-3">
+    <div class="sponslogo">
+    <img src="Ross.gif" class="unify">
+  </div>
+    <div class="card-body">
+      <h5 class="card-title text-center">Ross</h5>
+      <div class="cardtext ms-5">
+        <div class="body">
+        <img src="moonstar.png" class="moonstar mt-1" >
+      </div>
+      <div class="body1">
+        <span>4.4 676reviews</span>
+      </div>
+      </div>
+  <div class="btngroup">
+  <button class="sponbtn">Hardware & Networking</button>
+  <button class="sponbtn mt-2 ms-5">Foreign MNC</button>
+  <button class="sponbtn  mt-2 ms-2">Software products B2C</button>
+  </div>
+    </div>
+  </div>
+<!-- Eight box -->
+<div class="card mt-3">
+  <div class="sponslogo">
+  <img src="feuji.gif" class="unify">
+</div>
+  <div class="card-body">
+    <h5 class="card-title text-center">Feuji Software solutions</h5>
+    <div class="cardtext ms-5">
+      <div class="body">
+      <img src="moonstar.png" class="moonstar mt-1" >
+    </div>
+    <div class="body1">
+      <span>2.3 29reviews</span>
+    </div>
+    </div>
+  </div>
+<div class="btngroup">
+<button class="sponbtn ms-3">Networking & consulting</button>
+<button class="sponbtn ms-3 ">Startup</button>
+<button class="sponbtn">BPO</button>
+<button class="sponbtn">B2C</button>
+<button class="sponbtn">B2C</button>
+<button class="sponbtn mt-2 ms-5">Hardware & software</button>
+
+</div>
+  </div>
+</div>
+</div>
+      <!-- second slide start -->
+      <div class="carousel-item">
+        <div class="wrapper-card">
+          <!-- First box -->
+          <div class="card">
+            <div class="sponslogo">
+            <img src="factset.gif" class="unify">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Factset</h5>
+              <div class="cardtext ms-5">
+                <div class="body">
+                <img src="moonstar.png" class="moonstar mt-1" >
+              </div>
+              <div class="body1">
+                <span>4.0 1.2k+reviews</span>
+              </div>
+              </div>
+        <div class="btngroup">
+          <button class="sponbtn">B2B</button>
+          <button class="sponbtn">product</button>
+          <button class="sponbtn">corporate</button>
+          <button class="sponbtn ms-4 mt-2">Finacial services</button>
+        </div>
+            </div>
+          </div>
+        <!-- second box -->
+        <div class="card ">
+          <div class="sponslogo">
+          <img src="sopos.gif" class="unify">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Sophos</h5>
+            <div class="cardtext ms-5">
+              <div class="body">
+              <img src="moonstar.png" class="moonstar mt-1" >
+            </div>
+            <div class="body1">
+              <span>3.8 172reviews</span>
+            </div>
+            </div>
+        <div class="btngroup">
+        <button class="sponbtn ms-2">B2C</button>
+        <button class="sponbtn">public</button>
+        <button class="sponbtn">corporate</button>
+        <button class="sponbtn ms-4 mt-2">Southern India 500</button>
+        </div>
+          </div>
+        </div>
+        
+        <!-- Third box -->
+        <div class="card ">
+          <div class="sponslogo">
+          <img src="hacket.gif" class="unify">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Hackett Group</h5>
+            <div class="cardtext ms-5">
+              <div class="body">
+              <img src="moonstar.png" class="moonstar mt-1" >
+            </div>
+            <div class="body1">
+              <span>3.1 80reviews</span>
+            </div>
+            </div>
+        <div class="btngroup">
+        <button class="sponbtn">BPO/KPO</button>
+        <button class="sponbtn">B2O</button>
+        <button class="sponbtn">Foreign </button>
+        <button class="sponbtn  mt-2">Conglomerate</button>
+        <button class="sponbtn"> call centre</button>
+        </div>
+          </div>
+        </div>
+        <!-- Fourth box -->
+        <div class="card">
+          <div class="sponslogo">
+          <img src="altimetrik.gif" class="unify">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Altimetrik</h5>
+            <div class="cardtext ms-5">
+              <div class="body">
+              <img src="moonstar.png" class="moonstar mt-1" >
+            </div>
+            <div class="body1">
+              <span>3.9 830reviews</span>
+            </div>
+            </div>
+        <div class="btngroup">
+        <button class="sponbtn">IT services & consulting</button>
+        <button class="sponbtn">Indian MNC</button>
+        <button class="sponbtn">Internet</button>
+        <button class="sponbtn ms-4 mt-2">Finacial services</button>
+        </div>
+          </div>
+        </div>
+        </div>
+        <!-- Fifth box -->
+        <div class="secondrow">
+        <div class="card mt-3">
+          <div class="sponslogo">
+          <img src="e2open.gif" class="unify">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">E2Open</h5>
+            <div class="cardtext ms-5">
+              <div class="body">
+              <img src="moonstar.png" class="moonstar mt-1" >
+            </div>
+            <div class="body1">
+              <span>3.5 266reviews</span>
+            </div>
+            </div>
+        <div class="btngroup">
+        <button class="sponbtn">IT services & consulting</button>
+        <button class="sponbtn mt-2 ms-3">Foreign MNC</button>
+        <button class="sponbtn">B2B</button>
+        <button class="sponbtn ms-4 mt-2">Finacial services</button>
+        </div>
+          </div>
+        </div>
+        <!-- Sixth box -->
+        <div class="card mt-3">
+          <div class="sponslogo">
+          <img src="mpokket.gif" class="unify">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Mpokket</h5>
+            <div class="cardtext ms-5">
+              <div class="body">
+              <img src="moonstar.png" class="moonstar mt-1" >
+            </div>
+            <div class="body1">
+              <span>3.5 105reviews</span>
+            </div>
+            </div>
+        <div class="btngroup">
+        <button class="sponbtn ms-5">Finacial Services</button>
+        <button class="sponbtn  ms-2">IT services & Consulting</button>
+        </div>
+          </div>
+        </div>
+        <!-- Seventh box -->
+          <div class="card mt-3">
+            <div class="sponslogo">
+            <img src="zydus.gif" class="unify">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title text-center">Zydus Wellness</h5>
+              <div class="cardtext ms-5">
+                <div class="body">
+                <img src="moonstar.png" class="moonstar mt-1" >
+              </div>
+              <div class="body1">
+                <span>3.9 679reviews</span>
+              </div>
+              </div>
+          <div class="btngroup">
+          <button class="sponbtn">Hardware & Networking</button>
+          <button class="sponbtn mt-2 ms-5">Foreign MNC</button>
+          <button class="sponbtn  mt-2 ms-2">Software products B2C</button>
+          </div>
+            </div>
+          </div>
+        <!-- Eight box -->
+        <div class="card mt-3">
+          <div class="sponslogo">
+          <img src="aptean.gif" class="unify">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Aptean</h5>
+            <div class="cardtext ms-5">
+              <div class="body">
+              <img src="moonstar.png" class="moonstar mt-1" >
+            </div>
+            <div class="body1">
+              <span>3.4 22reviews</span>
+            </div>
+            </div>
+        <div class="btngroup">
+        <button class="sponbtn ms-3">Startup</button>
+        <button class="sponbtn">BPO</button>
+        <button class="sponbtn">B2C</button>
+        <button class="sponbtn mt-2 ms-5">Foreign MNC</button>
+        </div>
+          </div>
+        </div>
+        </div>
+  </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<br>
+<div class="btncompo">
+<button class="btn btn-outline-primary rounded-pill p-2 mb-5">View all Companies</button>
+</div>
+<!--  upcoming events and challenges-->
+<div class="bubby">
+  <div class="bubby1">
+<h3 class="text-light pt-2 ps-2 ">upcoming events and<br> challenges</h3>
+<img src="bubby.png" class="bubby2" width="92%" height="54%">
+</div>
+<div class="ninjas">
+  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="codingninjas mt-2 mb-2">
+        <div class="card"style="width: 21rem;">
+          <img src="coding.jpg" class="coding ms-1">
+          <div class="card-body">
+            <!-- <img src="p.png" width="18px" height="30px" > -->
+            <h6 class="card-title">Java Hiring challenges by powerSchool</h6>
+            <span class="text-secondary">powerSchool India</span><br>
+            <button class="java mt-1 bg-light">java</button>
+            <button class="java ms-3 mt-1 bg-light">SQL</button><br>
+            <div class="dateday">
+            <div class="date">
+            <img src="calendar.svg " width="15px" height="12px" >
+            <span class="p-2 ">28 Feb,10.30AM</span>
+          </div>
+          <div class="enroll">
+            <img src="user.svg" width="15px" height="12px">
+            <span class="ps-4">319 Enrolled</span>
+          </div>
+        </div>
+            <hr>
+            <button class="joboffer">job offers</button>
+            <a href="#" class="ps-5 anchor">view details</a>
+          </div>
+        </div> 
+        <div class="card"style="width: 21rem;">
+          <img src="power.jpg" class="coding ms-1">
+          <div class="card-body">
+            <!-- <img src="p.png" width="18px" height="30px" > -->
+            <h6 class="card-title">MAANG interview experienced by <br>Google SDE3</h6>
+            <span class="text-secondary">Coding Ninjas</span><br>
+            <button class="java mt-1 bg-light">python</button>
+            <button class="java ms-3 mt-1 bg-light">Mysql</button><br>
+            <div class="dateday">
+            <div class="date">
+            <img src="calendar.svg " width="15px" height="12px" >
+            <span class="p-2 ">7 Mar,5.30AM</span>
+          </div>
+          <div class="enroll">
+            <img src="user.svg" width="15px" height="12px">
+            <span class="ps-4">97 Enrolled</span>
+          </div>
+        </div>
+            <hr>
+            <button class="joboffer">Learn from Experts</button>
+            <a href="#" class="ps-5 anchor">view details</a>
+          </div>
+        </div> 
+      </div>
+      </div>
+<!-- second  off-->
+<div class="carousel-item">
+        <div class="codingninjas mt-2 mb-2">
+          <div class="card"style="width: 21rem;">
+            <img src="ninjas.jpg" class="coding ms-1">
+            <div class="card-body">
+              <!-- <img src="p.png" width="18px" height="30px" > -->
+              <h6 class="card-title">Intro to Machine Learning.Boost<br>analytical skills&career</h6>
+              <span class="text-secondary">coding ninjas</span><br>
+              <button class="java mt-1 bg-light">Pandas</button>
+              <button class="java ms-3 mt-1 bg-light">Numpy</button><br>
+              <div class="dateday">
+              <div class="date">
+              <img src="calendar.svg " width="15px" height="12px" >
+              <span class="p-2 ">11 Mar,6.30AM</span>
+            </div>
+            <div class="enroll">
+              <img src="user.svg" width="15px" height="12px">
+              <span class="ps-4">319 Enrolled</span>
+            </div>
+          </div>
+              <hr>
+              <button class="joboffer">job offers</button>
+              <a href="#" class="ps-5 anchor">view details</a>
+            </div>
+          </div> 
+          <div class="card"style="width: 21rem;">
+            <img src="parent.jpg" class="coding ms-1">
+            <div class="card-body">
+              <!-- <img src="p.png" width="18px" height="30px" > -->
+              <h6 class="card-title">Hiring challenges for PHP Developer<br>Google SDE3</h6>
+              <span class="text-secondary">powerSchool India</span><br>
+              <button class="java mt-1 bg-light">laravel</button>
+              <button class="java ms-3 mt-1 bg-light">symphony</button><br>
+              <div class="dateday">
+              <div class="date">
+              <img src="calendar.svg " width="15px" height="12px" >
+              <span class="p-2 ">7 Mar,5.30AM</span>
+            </div>
+            <div class="enroll">
+              <img src="user.svg" width="15px" height="12px">
+              <span class="ps-4">97 Enrolled</span>
+        </div>
+        <hr>
+               <!-- <button class="joboffer">Learn from Experts</button> -->
+              <!-- <a href="#" class="ps-5 anchor">view details</a>   -->
+            </div>
+          </div> 
+        </div>
+        </div
+      </div>
+      </div
+  </div>
+</div>
+</div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<br>
+<!-- interview sections -->
+<div class="interviewsection">
+<div class="ambitionbox">
+  <button class="ambibtn">by Ambitionbox</button><br>
+<img src="man.png" width="92%" height="54%" class=" man ms-5 mt-5" >
+<h5 class="ms-2">Prepare for your next<br> interview</h5>
+</div>
+<div class="question">
+  <div class="interview">
+<h5 class="ms-3 mt-3">interview queston by company</h5>
+<div class="companiesquestion">
+<div class="chip1">
+  <div class="tcs">
+  <img src="tcs.png" class="companylogo">
+  </div>
+    <div class="tcs1">
+  <h5 class="ms-2 mt-2">TCS</h5>
+  <span class="ms-2">2.5k+interviews</span>
+    </div>
+  <div class="arr">
+<img src="arrow.svg" width="8px" height="15px" class="arrowlogo mt-4" >
+</div>
+</div>
+<!-- second  -->
+  <div class="chip1">
+    <div class="tcs">
+    <img src="amazon1.png" class="companylogo">
+    </div>
+      <div class="tcs1">
+    <h5 class="ms-2 mt-2">Amazon</h5>
+    <span class="ms-2">1.7k.5k+interviews</span>
+      </div>
+    <div class="arr">
+  <img src="arrow.svg" width="8px" height="15px" class="arrowlogo mt-4" >
+  </div>
+  </div>
+</div>
+  <!-- Third one -->
+<div class="companiesquestion">
+  <div class="chip1">
+    <div class="tcs">
+    <img src="accenture.png" class="companylogo">
+    </div>
+      <div class="tcs1">
+    <h5 class="ms-2 mt-2">accenture</h5>
+    <span class="ms-2">2k+interviews</span>
+      </div>
+    <div class="arr">
+  <img src="arrow.svg" width="8px" height="15px" class="arrowlogo mt-4" >
+  </div>
+  </div>
+<!-- fourth one-->
+    <div class="chip1">
+      <div class="tcs">
+      <img src="cognizant.png" class="companylogo">
+      </div>
+        <div class="tcs1">
+      <h5 class="ms-2 mt-2">cognizant</h5>
+      <span class="ms-2">1.6k+interviews</span>
+        </div>
+      <div class="arr">
+    <img src="arrow.svg" width="8px" height="15px" class="arrowlogo mt-4" >
+    </div>
+    </div>
+</div>
+<!-- fifth one -->
+<div class="companiesquestion">
+  <div class="chip1">
+    <div class="tcs">
+    <img src="byjus.png" class="companylogo">
+    </div>
+      <div class="tcs1">
+    <h5 class="ms-2 mt-2">Byjus</h5>
+    <span class="ms-2">816interviews</span>
+      </div>
+    <div class="arr">
+  <img src="arrow.svg" width="8px" height="15px" class="arrowlogo mt-4" >
+  </div>
+  </div>
+<!-- sixth one -->
+    <div class="chip1">
+      <div class="tcs">
+      <img src="flipkart.png" class="companylogo">
+      </div>
+        <div class="tcs1">
+      <h5 class="ms-2 mt-2">Flipkart</h5>
+      <span class="ms-2">488interviews</span>
+        </div>
+      <div class="arr">
+    <img src="arrow.svg" width="8px" height="15px" class="arrowlogo mt-4" >
+    </div>
+    </div>
+</div>
+
+<a href="#" class="interviewanchor">view all companies</a>
+</div>
+</div>
+<div class="questionbyrole">
+  <h5 class="ms-1 mt-2 pe-2">interview queston by role</h5>
+<a href="#" class="jobroles mt-1">Software Engineer</a>
+<span  class="text-secondary">(7.2k+question)</span>
+<hr>
+<a href="#" class="jobroles">Business Analysts</a>
+<span  class="text-secondary">(2.8k+question)</span>
+<hr>
+<a href="#" class="jobroles">Consultant</a>
+<span class="text-secondary">(2.4k+question)</span>
+<hr>
+<a href="#" class="jobroles">Finacial Analysts</a>
+<span  class="text-secondary">894 question</span>
+<hr>
+<a href="#" class="jobroles">Sales & Marketing</a>
+<span  class="text-secondary">991 question</span>
+<hr>
+
+<a href="#" class="jobroles">Quality Engineer</a>
+<span  class="text-secondary">1.3k+question</span>
+
+<a href="#" class="interviewanchor text-center">view all roles</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="accelerate">
+  <div class="fflogo">
+  <img src="ff-services.png">
+</div>
+<div class="ffintro">
+  <h5 class="ms-1 mt-2">Accelerate your job search with premium services</h5>
+  <span class=" ms-1 text-secondary">Services to help you get hired, faster: from preparing your CV, getting <br>recruiter attention, finding the right jobs, and more!</span><br>
+<div class="servicetotal">
+  <div class="servicepart">
+    <a href="#" class="serviceanchor"><img src="ff-services-icon2.svg"class="serviceicon ms-2"> &nbsp; &nbsp;Resume writing 
+      <img src="arrowImg.2a8a6c78.svg" width="8px" height="15px" class="arrlogo" >
+    </a>
+  </div>
+  <div class="servicepart">
+    <a href="#" class="serviceanchor"><img src="ff-services-icon3-ot.svg"class="serviceicon ms-2"> &nbsp; &nbsp;Priority Applicant
+      <img src="arrowImg.2a8a6c78.svg" width="8px" height="15px" class="arrlogo" >
+    </a>
+  </div>
+    <div class="servicepart">
+      <a href="#" class="serviceanchor"><img src="ff-services-icon1-ot.svg"class="serviceicon ms-2"> &nbsp; &nbsp;Priority Applicant
+        <img src="arrowImg.2a8a6c78.svg" width="8px" height="15px" class="arrlogo" >
+      </a>
+    </div>
+</div>
+</div>
+<div class="hi">
+  <button class="border border rounded-pill mt-0">By naukri Fastforward</button>
+</div>
+</div>
+
+<div class="recruiter">
+  <div class="recruiter1">
+<h4  class="ms-3 mt-4  text-dark">Stand out among recruiters<br> with a video profile</h4>
+<p class="ms-3">Available for both Android and iOS apps</p>
+<form>
+  <div class="form1">
+  <div class="form2">
+  <input type="text" placeholder="Enter mobile number...." class="inputrecruiter" required>
+</div>
+<div class="form3">
+<button class="text-light bg-primary border rounded-pill ">Get link</button>
+</div>
+</div>
+</form>
+<img src="GplayOneThemeHd.png" class="mt-5 ms-4">
+<img src="AppstoreOneThemeHd.png" class="mt-5 ms-4">
+</div>
+
+<div class="recruiter2">
+  <div class="qr-code1">
+  <img src="qr-code.svg" class="qr-code"><br>
+  <span>scan to download</span>
+</div>
+</div>
+<div class="recruiter3">
+  <img src="MaskGroupOneTheme.png" class="mask">
+</div>
+</div>
+<!-- Footer page -->
+<div class="footer">
+  <div class="companyinfo">
+   <img src="naukri_Logo.png">
+   <p class="text-dark mt-4">connect with us</p><br>
+   <div class="sitelogo">
+   <i class="bi bi-instagram"></i>
+   <i class="bi bi-facebook"></i>
+   <i class="bi bi-twitter"></i>
+   <i class="bi bi-linkedin"></i>
+  </div>
+  </div>
+  <div class="links">
+    <ul class="list">
+   <li> <a href="#" class="footerlink">About us</a></li>
+   <li><a href="#">career</a></li>
+    <li><a href="#">Employer Name</a></li>
+    <li><a href="#">site map</a></li>
+    <li><a href="#">Credits</a></li>
+  </ul>
+  </div>
+  <div class="links">
+    <ul class="list">
+      <li><a href="#">Help center</a></li>
+      <li><a href="#">summons/Notices</a></li>
+      <li><a href="#">Grievances</a></li>
+      <li><a href="#">Report issues</a></li>
+    </ul>
+  </div>
+  
+  <div class="links">
+    <ul class="list">
+      <li><a href="#">Privacy policy</a></li>
+      <li><a href="#">Terms&condition</a></li>
+      <li><a href="#">Fraud alert</a></li>
+      <li><a href="#">Trust&safety</a></li>
+    </ul>
+  </div>
+<div class="Apply">
+  <h5>Apply on the go</h5>
+  <span>Get real-time job updates on our App</span><br>
+  <img src="GplayOneThemeHd.png">
+  <img src="AppstoreOneThemeHd.png">
+</div>
+
+</div>
+<hr class="ms-5 me-5" >
+<div class="footerpage">
+  <div class="footer1">
+    <img src="infoedge-logo.svg">
+  </div>
+  <div class="footer2">
+    <span class="text-secondary ms-3">All trademarks are the property of their respective owners<br></span>
+     <span class="ms-3 text-secondary"> All rights reserved &copy; 2024 Info Edge (India) Ltd.</span>
+  </div>
+  <div class="footerbtn">
+    <button class="marqueebtn">Our business</button>
+  </div>
+  <div class="marquee mb-5">
+     <marquee direction="left">
+    <img src="jeevansathi.png">
+    <img src="shiksha.png">
+    <img src="ng.png" >
+  </marquee> 
+
+  </div>
+</div>
+<div class="thamilarasi" >
+  
+  <span class="ms-5">We use cookies to improve your experience. By continuing to browse the site, you agree to our 
+    Privacy Policy
+     & 
+    Cookie Policy</span>
+    <button class="bg-primary text-light border rounded-pill p-1s">Got it</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js" ></script>
+</body>
+
+
+</html>

@@ -1,0 +1,49 @@
+.LoginForm{
+    width: 371px;
+    height: 500px;
+    border: 2px solid white;
+    margin-top: 2%;
+    padding: 32px;
+    /* box-shadow: 0 0 6px 6px grey; */
+    border-radius: 35px;
+    
+}
+.login{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+    margin-left: 0%;
+
+}
+.register{
+    justify-content: center;
+}
+.Forgetpassword{
+    text-align: end;
+}
+.Forgetpassword a{
+text-decoration: none;    
+}
+.loginbutton{
+    width: 99%;
+    border: none;
+    border-radius: 50px;
+    padding: 6px;
+}
+.OTP{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.OTP a{
+    text-decoration: none;
+}
+
+.sign{
+border: none;
+width: 99%;
+border-radius: 50px;
+background-color: white;
+box-shadow: 2px 2px 2px skyblue;
+padding: 6px;
+}

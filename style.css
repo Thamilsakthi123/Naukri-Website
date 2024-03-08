@@ -1,0 +1,863 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    bottom: 0%;
+}
+
+.btn-group:hover {
+    border-bottom: 3px solid red;
+    padding: 0;
+}
+
+@media only screen and(max-width:600px) {
+    body {
+        background-color: red;
+        font-weight: bold;
+    }
+}
+
+img {
+    margin-top: 13px;
+    width: 150px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.login {
+    border-radius: 50px;
+    padding: 5px;
+    width: 82px;
+    margin-left: 0%;
+    margin-top: 5%;
+    border-color: blue;
+    color: blue;
+    background-color: white;
+}
+
+.Register {
+    border-radius: 50px;
+    padding: 6px;
+    width: 82px;
+    margin-left: 0%;
+    margin-top: 5%;
+    background-color: orangered;
+    border: none;
+}
+
+.Header {
+    background: linear-gradient(180deg, #f5f4fa, rgba(251, 251, 253, 0));
+}
+
+.job {
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-bottom: 8px;
+}
+
+.select {
+    color: rgb(113, 106, 147, .2);
+    outline: none;
+    text-align: center;
+    border-right: 5px solid rgb(113, 106, 147, .2);
+    margin-left: 36px;
+    border-left: 5px solid rgb(113, 106, 147, .2);
+    padding: 0%;
+}
+
+.searchbar {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar:hover {
+    transform: rotate(52deg);
+}
+
+.searchbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    width: 850px;
+    height: 72px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 25px 60px rgba(113, 106, 147, .2);
+    font-weight: bold;
+    text-shadow: rgba(113, 106, 147, .2);
+}
+
+.inputtype {
+    border: none;
+    width: 136%;
+    outline: none;
+}
+
+.submit {
+    border-radius: 50px;
+    border: none;
+    padding-top: 8px;
+    padding-left: 35px;
+    padding-bottom: 8px;
+    padding-right: 35px;
+}
+
+.box:hover {
+    box-shadow: 0px 25px 50px rgba(113, 106, 147, .2);
+}
+
+
+.box1 {
+    width: 150px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 12px;
+
+}
+
+.box2 {
+    width: 150px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 12px;
+}
+
+.box3 {
+    width: 200px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 12px;
+
+}
+
+.box4 {
+    width: 180px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    margin-left: 0%;
+    border-radius: 12px;
+
+}
+
+.box5 {
+    width: 150px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 12px;
+
+}
+
+.box6 {
+    width: 200px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 9%;
+    gap: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Jobicons {
+    width: 40px;
+    height: 40px;
+
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+
+.span {
+    padding-top: 12px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.categories1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 1%;
+    gap: 15px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.box7 {
+    width: 200px;
+    height: 75px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+/* Top companies hiring now*/
+
+.arrowimg {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 0%;
+}
+
+.card-wrappers {
+    display: flex;
+    margin-left: 8%;
+}
+
+.carouselslide {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5px;
+}
+
+.card-img {
+    width: 31px;
+    height: 41px;
+}
+
+.mnclogos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MNC {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Featured company */
+.Featuredcompanies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.Featuredbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 12px;
+}
+
+.All {
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+.ItServices {
+    border-radius: 50px;
+    border: none;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.BFSI {
+    border-radius: 50px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.moonstar {
+    width: 18px;
+    height: 18px;
+    padding: 4px;
+    margin-bottom: 14px;
+}
+
+.vxi {
+    background-color: rgba(12, 208, 243, 0.349);
+    text-align: center;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.viewjobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 5px solid rgba(113, 106, 147, 0.13);
+    height: 19%;
+    width: 21%;
+    margin-left: 22px;
+}
+
+.card-wrapper {
+    display: flex;
+    margin-left: 8%;
+}
+
+.cognizant {
+    background-color: rgba(230, 186, 173, 0.514);
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 8px;
+    padding: 22px;
+}
+
+.capgemini {
+    background-color: rgba(198, 173, 230, 0.329);
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 18%;
+    padding: 22px;
+
+}
+
+.xorint {
+    background-color: rgba(7, 226, 153, 0.356);
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 12px;
+    padding: 22px;
+}
+
+.card:hover {
+    box-shadow: 0px 25px 50px rgba(113, 106, 147, .2);
+}
+
+.carouselbox {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5px;
+}
+
+.Airtel {
+    background-color: rgba(230, 173, 204, 0.384);
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 22px;
+    padding: 22px;
+}
+
+.Amazon {
+    background-color: rgba(10, 163, 214, 0.466);
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 22px;
+    padding: 22px;
+}
+
+.Hitachi {
+    background-color: rgba(158, 1, 106, 0.226);
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 15px;
+    padding: 22px;
+}
+
+.coforge {
+    background-color: navajowhite;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 15px;
+    padding: 22px;
+}
+
+/* viewbutton */
+.viewbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 9%;
+}
+
+/* naukri campus */
+.campus {
+    display: flex;
+    border: 1px solid rgba(113, 106, 147, .2);
+    margin-left: 9%;
+    margin-bottom: 10%;
+    margin-right: 8%;
+    box-shadow: 5px 5px 5px rgba(113, 106, 147, .2);
+    border-radius: 12px;
+}
+
+.naukri {
+    display: flex;
+}
+
+/* naukri images and videos */
+.lectures {
+    background: url("naukri naggaro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1150px;
+    height: 300px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.naukricampuspic {
+    margin-left: 9%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+    padding-top: 0%;
+}
+
+.naggaro {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 12px;
+    border: 2px solid blue;
+    /* filter: grayscale(100%); */
+/* }
+.shadow{
+    text-shadow: 5px 5px 5px blue; */
+}
+
+.gradient {
+    background: linear-gradient(red,red);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.indicators1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebox {
+    margin-top: -32px;
+    display: flex;
+    justify-content: stretch;
+    gap: 32px;
+    padding-top: 22px;
+    padding-left: 8px;
+}
+
+.First {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+
+}
+
+.arrowspan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+
+}
+
+.Third {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+
+}
+
+.Full:hover {
+    box-shadow: 0px 25px 50px rgba(113, 106, 147, .2);
+    /* transform: rotate(21deg); */
+    transform: scale(1.1);
+}
+
+.mobile:hover {
+    box-shadow: 0px 25px 50px rgba(113, 106, 147, .2);
+    transform: rotate(21deg);
+    /* transform: scale(1.1); */
+}
+
+.sponspored {
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+
+.sbutton:hover {
+    transform: rotate(23deg);
+}
+
+.unify {
+    width: 21%;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 8px;
+}
+
+.sponslogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtext {
+    display: flex;
+
+}
+
+.sponbtn {
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid rgba(113, 106, 147, .2);
+    /* margin-left: 12 */
+    margin-bottom: 3%;
+}
+
+.wrapper-card {
+    display: flex;
+
+}
+
+.sponbtn:hover {
+    box-shadow: 2px 5px 8px blue;
+}
+
+.unify:hover {
+    transform: skew(39deg);
+}
+
+.secondrow {
+    display: flex;
+}
+
+.btncompo {
+    margin-top: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubby {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: blueviolet;
+}
+
+.ninjas {
+    background-color: blue;
+}
+
+.bubby2:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(15px 15px 15px black);
+}
+
+.bubby2 {
+    padding-left: 28px;
+}
+
+.joboffer {
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+.coding {
+    width: 325px;
+    height: 119px;
+}
+
+.java {
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+
+.card:hover {
+    transform: skew(12deg);
+}
+
+.dateday {
+    display: flex;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.codingninjas {
+    display: flex;
+}
+
+.ambibtn {
+    margin-top: -192px;
+    border: none;
+    border-radius: 40px;
+    margin-left: 12px;
+}
+
+.interviewsection {
+    display: flex;
+
+}
+
+.interview {
+    border: 1px solid red;
+    width: 510px;
+    height: 410px;
+    margin-top: -32px;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 4%;
+    background-color: white;
+}
+
+.chip1 {
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 15px;
+    width: 230px;
+    height: 80px;
+    margin-top: 2px;
+    margin-left: 8px;
+    display: flex;
+}
+
+.companylogo {
+    max-height: 40px;
+    max-width: 40px;
+    margin-left: 12px;
+}
+
+.tcs {
+    display: flex;
+}
+
+.arrowlogo {
+    margin-left: -52px;
+}
+
+.companiesquestion {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 12px;
+    margin-right: 22px;
+}
+
+.interviewanchor {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.questionbyrole {
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 15px;
+    width: 310px;
+    height: 405px;
+    background-color: white;
+    margin-top: -28px;
+    margin-left: 18px;
+    padding-left: 22px;
+    padding-right: 26px;
+    box-shadow:5px 5px 5px  rgba(113, 106, 147, .2);
+}
+.question:hover {
+     transform: scale(1.1); 
+    box-shadow: 5px 5px 5px magenta ;
+}
+.questionbyrole:hover {
+     transform: scale(1.1);
+    box-shadow: 5px 5px 5px magenta ;
+}
+.question{
+    box-shadow:5px 5px 5px  rgba(113, 106, 147, .2);
+}
+.link 
+{
+    display: flex;
+}
+
+.jobroles {
+    text-decoration: none;
+    color: black;
+}
+
+.man:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(15px 15px 15px red);
+}
+.accelerate{
+    display: flex;
+}
+.serviceicon{
+    width: 18px;
+    height: 18px;
+justify-content: center;  
+margin-bottom: 12px; 
+
+}
+.servicetotal{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.servicepart{
+    display: flex;
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 50px;
+    margin-left: 2px;
+    margin-top: 12px;
+}
+
+.serviceanchor{
+    text-decoration: none;
+    color: black;
+}
+.arrlogo{
+    margin-left: -62px;
+    margin-top: -1px;
+}
+.recruiter{
+    background: linear-gradient(white,rgba(1, 204, 218, 0.075));
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 12px;
+    display: flex;
+}
+.qr-code{
+    /* border: 1px solid rgba(113, 106, 147, .2); */
+    width: 120px;
+    height: 120px;
+    margin-top:12px;
+}
+
+.inputrecruiter{
+    outline: none;
+    width: 272px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid grey;
+}
+.form1{
+    display: flex;
+    padding: 12px;
+    padding-left: 12px;
+}
+.form3{
+    margin-left: -82px;
+    margin-top: 9px;
+}
+.qr-code1{
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+
+}
+.recruiter2{
+    margin-top: 52px;
+}
+.mask{
+    width: 500px;
+    height: 300px;
+    margin-left: 18%;
+    margin-top: 9%;
+}
+.sitelogo{
+    margin-top: -32px;
+    padding-right: 12px;
+}
+.footer{
+    display: flex;
+    padding:12px ;
+
+}
+.list {
+    list-style-type:none;
+    text-decoration: none;
+
+}
+
+.list a{
+    list-style-type:none;
+    text-decoration: none;
+    color: black;
+    line-height: 42px;
+}
+.Apply{
+    border: 1px solid rgba(113, 106, 147, .2);
+    border-radius: 12px;
+    margin-left: 5%;
+    padding-top: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 12;
+    margin-left: 32px;
+}
+.footerpage{
+    display: flex;
+}
+.marqueebtn{
+    background-color: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left: 28px;
+}
+.thamilarasi{
+    background-color: rgb(1, 1, 99);
+    color: white;
+    width: auto;
+    height: 85px;
+    padding-top: 22px;
+    padding-left: 12%;
+    position: sticky;
+    top: 12px;
+    left: 12px;
+}
